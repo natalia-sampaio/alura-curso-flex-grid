@@ -217,7 +217,13 @@ body {
 }
 
 .cartao__imagem--desktop {
-    display: none;
+    display: block;
+    width: 100%;
+}
+
+.cartao__imagem--mobile {
+    display: block;
+    width: 100%;
 }
 
 .cartao--destaque {
@@ -315,14 +321,6 @@ body {
 @media screen and (min-width: 1440px) {
     .cartao--destaque {
         margin-bottom: 0;
-    }
-
-    .cartao__imagem--mobile {
-        display: none;
-    }
-
-    .cartao__imagem--desktop {
-        display: block;
     }
 
     .cartao__botao--destaque {
